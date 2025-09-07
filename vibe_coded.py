@@ -10,8 +10,6 @@ def derive_key(password: str, salt: bytes, length: int = 32) -> bytes:
     # Use PBKDF2 HMAC SHA256 to derive a key from the password
     return hashlib.pbkdf2_hmac('sha256', password.encode(), salt, 100000, dklen=length)
 
-passwd = ["y", "r", "t", "b", "k", "y", "v", "n", "f", "i", "c", "u"]
-
 def encrypt_file(filename: str, password: str):
     salt = os.urandom(16)
     key = derive_key(password, salt)

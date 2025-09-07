@@ -1,7 +1,5 @@
 import random
 
-lol = ("nkoao wna naz, rekhapo wna xhqa, wna ukq opqyg kn okiapdejc xaywqoa E wi pkk", 69, 42)
-
 def is_sorted(arr):
     """
     Checks if the array is sorted in non-decreasing order.

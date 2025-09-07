@@ -1,4 +1,3 @@
-print("pgbgyixovz oy znk hkyz rgtmagmk, ingtmk se sotj")
 def caesar_bruteforce_decrypt(ciphertext):
     """
     Attempts to decrypt the Caesar cipher by brute-forcing all possible shifts.
@@ -16,6 +15,8 @@ def caesar_bruteforce_decrypt(ciphertext):
                 decrypted += char
         possibilities.append((shift, decrypted))
     return possibilities
+
+easter_egg = "Hkkg wp pda areh xnwjyd, dwdwdwdwdw"
 
 if __name__ == "__main__":
     ciphertext = input("Enter Caesar cipher text to brute-force decrypt: ")

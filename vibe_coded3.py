@@ -16,8 +16,6 @@ def caesar_encrypt(text, shift):
             result += char
     return result
 
-huh = "something is behind the...oh wait not suppose to say that here"
-
 if __name__ == "__main__":
     text = input("Enter text to encrypt: ")
     shift = int(input("Enter shift (integer): "))
